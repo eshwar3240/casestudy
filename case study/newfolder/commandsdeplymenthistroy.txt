@@ -1,0 +1,351 @@
+ 1  aws -v
+    2  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    3  unzip awscliv2.zip
+    4  sudo ./aws/install
+    5  claer
+    6  clear
+    7  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    8  unzip awscliv2.zip
+    9  sudo ./aws/install
+   10  aws -v
+   11  sudo ./aws/install
+   12  sudo ./aws/install --update
+   13  awscli -v
+   14  clear
+   15  aws --version
+   16  wget -O kops https://github.com/kubernetes/kops/releases/latest/download/kops-linux-amd64
+   17  chmod +x ./kops
+   18  sudo mv ./kops /usr/local/bin/
+   19  kops --version
+   20  kops -v
+   21  cd /usr/local/bin
+   22  ls
+   23  curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+   24  chmod +x ./kubectl
+   25  sudo mv ./kubectl /usr/local/bin/
+   26  ls
+   27  cd kubectl
+   28  sudo -i
+   29  aws configure
+   30  cd terraform1
+   31  mkdir terraform1
+   32  cd terraform1
+   33  ls
+   34  vi main.tf
+   35  sudo -i
+   36  ssh-keygen -t rsa -b 2048 -f ~/.ssh/imp
+   37  /root/.ssh/imp.pub
+   38  sudo .ssh/imp.pub
+   39  sudo .ssh
+   40  cd .ssh
+   41  ls
+   42  sudo -i
+   43  ls
+   44  cd terraform1
+   45  ls
+   46  vi main.tf
+   47  terraform init
+   48   sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+   49  cd .
+   50  sudo yum install -y yum-utils
+   51  sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+   52  sudo yum -y install terraform
+   53  terraform init
+   54  terraform plan
+   55  terraform apply
+   56  ls
+   57  cd terraform1
+   58  terraform apply
+   59  aws ec2 delete-key-pair --key-name imp
+   60  terraform apply
+   61  vi main.tf
+   62  terraform plan
+   63  terraform apply
+   64  vi main.tf
+   65  terraform init
+   66  vi main.tf
+   67  terraform apply --auto -approve
+   68  terraform init
+   69  terraform plan
+   70  vi main.tf
+   71  terraform plan
+   72  vi main.tf
+   73  terraform plan
+   74  vi main.tf
+   75  terraform plan
+   76  terraform apply
+   77  vi main.tf
+   78  terraform apply
+   79  vi main.tf
+   80  terraform plan
+   81  terraform apply
+   82  kops get clusters
+   83  kops get clsuter
+   84  kops get all
+   85  export KOPS_STATE_STORE=s3://eshwar18-kops-state-store
+   86  echo $KOPS_STATE_STORE
+   87  kops get clusters
+   88  vi flask-app-deployment.yaml
+   89  vi flask-app-service.yaml
+   90  ls
+   91   vi flask-app-service.yaml
+   92  ls
+   93  terraform1
+   94  cd terraform1
+   95  ls
+   96  vi terraform.tf
+   97  vi main.tf
+   98  ls
+   99  cd ..
+  100  ls
+  101  cd terraform
+  102  mkdir terraform
+  103  cd terraform
+  104  vi main.tf
+  105  vi terraform.tfvars
+  106  terraform init
+  107  terrafom plan
+  108  terraform plan
+  109  ls
+  110  cd terraform1
+  111  ls
+  112  cd ..
+  113  cd terraform
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd terraform1
+  118  ls
+  119  terraform destory
+  120  terraform destroy
+  121  shutdown
+  122  ls
+  123  cd terraform1
+  124  ls
+  125  cat main.tf
+  126  ls
+  127  cd terraform1
+  128  kops delete cluster --name=example.k8s.local --yes
+  129  
+  130  export KOPS_STATE_STORE=s3://eshwar18-kops-state-store
+  131  kops delete cluster --name=example.k8s.local --yes
+  132  ls
+  133  sudo -i
+  134  ls
+  135  cd .ssh
+  136  ls
+  137  cd ..
+  138  ls
+  139  cd terraform1
+  140  ls
+  141  cat main.tf
+  142  vi main.tf
+  143  terraform init
+  144  vi main.tf
+  145  terraform init
+  146  terraform plan
+  147  vi main.tf
+  148  terraform plan
+  149  terraform apply
+  150  vi main.tf
+  151  ls
+  152  aws s3 ls
+  153  cd ..
+  154  ls
+  155  cd terraform1
+  156  ls
+  157  cd ..
+  158  ls
+  159  aws s3 s
+  160  cd terraform1
+  161  ls
+  162  terraform destroy
+  163  ls
+  164  terraform init
+  165  terraform lan
+  166  terraform plan
+  167  terraform apply
+  168  vi main.tf
+  169  terraform plan
+  170  terraform apply
+  171  vi main.tf
+  172  terraform plan
+  173  vi main.tf
+  174  terraform plan
+  175  terraform apply
+  176  kops get clsuters
+  177  export KOPS_STATE_STORE=s3://eshwar18-kops-state-store
+  178  kops get clsuters
+  179  kops get clusters
+  180  cd ..
+  181  kubectl apply -f deployment.yaml
+  182  cat ~/.kube/config
+  183  kops delete cluster --name=example.k8s.local~
+  184  kops delete cluster --name=example.k8s.local
+  185  kops delete cluster --name=example.k8s.local --yes
+  186  cd terraform1
+  187  ls
+  188  terraform destroy
+  189  ls
+  190  cd terraform1
+  191  ls
+  192  vi main.tf
+  193  terraform init
+  194  terraform plan
+  195  terraform apply
+  196  export KOPS_STATE_STORE=s3://eshwar18-kops-state-store
+  197  kops delete cluster --name=example.k8s.local --yes
+  198  export KOPS_STATE_STORE=s3://eshwar18-kops-state-store
+  199  kops delete cluster --name=example.k8s.local --yes
+  200  aws ec2 delete-internet-gateway --internet-gateway-id igw-07544ec2cdc0e779e
+  201  aws ec2 delete-route-table --route-table-id rtb-084991084c8529511
+  202  aws ec2 delete-subnet --subnet-id subnet-0d71c12053076cbdd
+  203  aws ec2 delete-vpc --vpc-id vpc-0b4fc1e2aa14586ee
+  204  ~aws ec2 delete-internet-gateway --internet-gateway-id igw-07544ec2cdc0e779e
+  205  aws ec2 delete-route-table --route-table-id rtb-084991084c8529511
+  206  aws ec2 delete-subnet --subnet-id subnet-0d71c12053076cbdd
+  207  aws ec2 delete-vpc --vpc-id vpc-0b4fc1e2aa14586ee
+  208  aws ec2 delete-internet-gateway --internet-gateway-id igw-07544ec2cdc0e779e
+  209  aws ec2 delete-route-table --route-table-id rtb-084991084c8529511
+  210  aws ec2 delete-subnet --subnet-id subnet-0d71c12053076cbdd
+  211  aws ec2 delete-vpc --vpc-id vpc-0b4fc1e2aa14586ee
+  212  ls
+  213  sudo terraform1
+  214  cd terraform1
+  215  ls
+  216  terraform init
+  217  terraform plan
+  218  terraform apply
+  219  ls
+  220  rm terraform.tfstate
+  221  ls
+  222  rm terraform.tfstate.backup
+  223  terraform init
+  224  terraform plan
+  225  terraform apply
+  226  terraform destroy
+  227  terraform apply
+  228  ls
+  229  terraform import aws_s3_bucket.kops_state_store bucket-name
+  230  cd terraform1
+  231  ls
+  232  terraform import aws_s3_bucket.kops_state_store bucket-name
+  233  terraform state rm
+  234  terraform state rm aws_s3_bucket.kops_state_store
+  235  terraform state list"
+  236  terraform state list
+  237  terraform init
+  238  terraform plan
+  239  terraform apply
+  240  kubectl config current-context
+  241  kubectl config use-context example.k8s.local
+  242  kops export kubecfg --name example.k8s.local
+  243  export KOPS_STATE_STORE=s3://eshwar18-kops-state-store
+  244  kops export kubecfg --name example.k8s.local
+  245  vi service-account.yaml
+  246  kubectl apply -f service-account.yaml
+  247  cat ~/.kube/config
+  248  kubectl apply -f service-account.yaml
+  249  kops export kubecfg --state s3://eshwar18-kops-state-store --name example.k8s.local --admin
+  250  cat ~/.kube/config
+  251  kubectl create secret generic my-user-secret --from-literal=username=eshwar --from-literal=password=eshwar
+  252  cat ~/.kube/config
+  253  kops delete cluster --name=example.k8s.local --yes
+  254  terraform destroy
+  255  kops delete cluster --name=example.k8s.local --yes
+  256  export KOPS_STATE_STORE=s3://eshwar18-kops-state-store
+  257  kops delete cluster --name=example.k8s.local --yes
+  258  cd terraform1
+  259  ls
+  260  terraform destroy
+  261  sudo yum update -y
+  262  sudo yum install -y wget git
+  263  sudo yum install docker -y
+  264  sudo systemctl start docker
+  265  sudo systemctl enable docker
+  266  cd ..
+  267  ls
+  268  sudo -i
+  269  ls
+  270  kubectl get pods
+  271  kubectl get deployments
+  272  kubectl delete deployment flask-app
+  273  kubectl apply -f flask-app-deployment.yaml
+  274  kubectl get pods
+  275  kubectl create secret docker-registry regcred   --docker-server=https://index.docker.io/v1/   --docker-username=eshwar0519   --docker-password=Eshwar@0117   --docker-email=eshwar0436@gmail.com
+  276  kubectl get pods
+  277  kubecyl get deployments
+  278  kubectl get deployments
+  279  ls
+  280  flask-app-deployment.yaml
+  281  vi  flask-app-deployment.yaml
+  282  kubectl delete deployments
+  283  kubectl delete deployment
+  284  kubectl delete deployment flask-app
+  285  kubectl get pods
+  286  vi  flask-app-deployment.yaml
+  287  vi  flask-app-deployment.yaml
+  288  kubectl apply -f flask-app-deployment.yaml
+  289  vi  flask-app-deployment.yaml
+  290  kubectl apply -f flask-app-deployment.yaml
+  291  kubectl get pods
+  292  kubectl describe pod flask-app-5bf4b57d9f-dsf8l
+  293  vi  flask-app-deployment.yaml
+  294  kubectl delete deployment falsk-app
+  295  kubectl delete deployment flask-app
+  296  kubectl apply -f flask-app-deployment.yaml
+  297  kubectl get pods
+  298  kubectl describe pod flask-app-5bf4b57d9f-dsf8l
+  299  kubectl describe pod flask-app-676668fc8c-5h8cn
+  300  kubectl logs flask-app-676668fc8c-5h8cn
+  301  docker run --rm eshwar0519/flask-app:5 pip show flask werkzeug
+  302  sudo yum install git
+  303  git clone https://github.com/eshwar3240/test.git
+  304  ls
+  305  kubectl get pods
+  306  kubectl delete deployment falsk-app
+  307  kubectl delete deployment flask-app
+  308  kubectl get pods
+  309  pws
+  310  pwd
+  311  ls
+  312  cd repo
+  313  clear
+  314  git clone https://github.com/eshwar3240/test.git eshwar
+  315  ls
+  316  cd test
+  317  docker images
+  318  docker run -p 5000:5000 eshwar0519/flask-app:5
+  319  docker login
+  320  docker tag eshwar0519/flask-app:5 eshwar0519/flask-app:5
+  321  docker push eshwar0519/flask-app:push
+  322  docker push eshwar0519/flask-app:5
+  323  docker tag eshwar0519/flask-app:5 eshwar0519/flask-app:latest
+  324  docker push eshwar0519/flask-app:latest
+  325  cd ..
+  326  ls
+  327  vi  flask-app-deployment.yaml
+  328  kubectl apply -f flask-app-deployment.yaml
+  329  kubectl get pods
+  330  kubectl apply -f flask-app-service.yaml
+  331  cd terraform1
+  332  kops validate cluster --name example.k8s.local
+  333  export KOPS_STATE_STORE=s3://eshwar18-kops-state-store
+  334  kops validate cluster --name example.k8s.local
+  335  kubectl create secret generic my-user-secret --from-literal=username=eshwar --from-literal=password=eshwar
+  336  kops export kubecfg --state=${KOPS_STATE_STORE} --name=example.k8s.local
+  337  cd ..
+  338  ls
+  339  kubectl apply -f flask-app-deployment.yaml
+  340  kubectl get deployments
+  341  kubectl get pods
+  342  kubectl get deployments
+  343  time kubectl apply -f flask-app-deployment.yaml
+  344  kubectl get pods
+  345  kubectl get deployments
+  346  cd terraform1
+  347  export KOPS_STATE_STORE=s3://eshwar18-kops-state-store
+  348  kubectl get pods
+  349  cd ..
+  350  ls
+  351  cat flask-app-deployment.yaml

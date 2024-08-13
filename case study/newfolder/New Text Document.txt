@@ -1,0 +1,5 @@
+kops export env cmmd
+eshwar18-kops-state-store
+
+export KOPS_STATE_STORE=s3://eshwar18-kops-state-store
+kops delete cluster --name=example.k8s.local --yes

@@ -1,0 +1,6 @@
+kubectl apply -f prometheus.yaml
+kubectl get pods -n monitoring
+kubectl get pods -n monitoring
+#Now you will install Grafana to visualize the metrics collected by Prometheus.
+kubectl apply -f grafana.yaml
+kubectl get pods -n monitoring
